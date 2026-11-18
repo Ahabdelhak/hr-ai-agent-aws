@@ -1,6 +1,6 @@
 # hr-ai-agent-aws
 
-An HR assistant that **answers policy questions and files requests**, built on Amazon Bedrock AgentCore.
+An HR agent that **answers policy questions and files requests**, built on Amazon Bedrock AgentCore.
 
 ![architecture](docs/architecture.png)
 
