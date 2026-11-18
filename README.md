@@ -76,6 +76,6 @@ cdk destroy     # always tear down
 
 - [x] CDK stack for gateway, 2 Lambda targets, tables, schemas (synthesizes; not yet deployed)
 - [x] Guardrail resource (legal and investment advice denied, basic PII)
-- [ ] Knowledge Base + `hrKnowledgeBase` gateway target
-- [ ] AgentCore Runtime agent code, wired to the guardrail
+- [x] Knowledge Base + `hrKnowledgeBase` gateway target
+- [x] AgentCore Runtime agent code, wired to the guardrail
 - [ ] Evals for answer quality
