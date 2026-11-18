@@ -1,0 +1,15 @@
+[
+  {
+    "name": "submit_leave",
+    "description": "Submit a leave request for an employee. Use when the user asks to request, book or file time off.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "employee_name": {"type": "string", "description": "Full name of the employee"},
+        "startDate": {"type": "string", "description": "First day of leave, YYYY-MM-DD"},
+        "endDate": {"type": "string", "description": "Last day of leave, YYYY-MM-DD"}
+      },
+      "required": ["employee_name", "startDate", "endDate"]
+    }
+  }
+]

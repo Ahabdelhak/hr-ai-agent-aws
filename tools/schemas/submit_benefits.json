@@ -1,0 +1,15 @@
+[
+  {
+    "name": "submit_benefits",
+    "description": "Submit a benefits claim for an employee. Use when the user asks to file or claim a benefit such as medical.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "employee_name": {"type": "string", "description": "Full name of the employee"},
+        "benefit_type": {"type": "string", "description": "Type of benefit, e.g. medical"},
+        "claim_amount": {"type": "number", "description": "Claim amount"}
+      },
+      "required": ["employee_name", "benefit_type", "claim_amount"]
+    }
+  }
+]
